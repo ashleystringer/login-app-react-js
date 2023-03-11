@@ -1,0 +1,31 @@
+Login app
+
+- Login page
+    - The component the user can access by default
+    - The user can access the SignUp component via this component
+- Sign up page
+- Log out page
+- Landing page
+    - If user is logged in, display "Log out"
+- Confirmation page
+    - Reload after a certain time to the landing page 
+
+- Question
+    - Is there going to be a point where I used context providers or custom hooks?
+
+- Error component
+    - What I want:
+        - For this component to be used when an error is thrown
+        - Regardless of where in the program
+    - Scenarios
+        - Login component
+            - A username isn't found
+            - An incorrect password is given
+        - SignUp component 
+            - Email is already in use
+            - Username is already in use 
+            - Password doesn't follow requirements
+            - Passwords typed don't match
+
+Later 
+- Maybe write a simple backend for this using something like Express.
